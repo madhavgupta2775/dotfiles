@@ -1,0 +1,12 @@
+connect.mdns_devices="[]"
+connect.dial_devices="[]"
+audio.equalizer.high_shelf_gain_v2=-384757487
+audio.equalizer.low_mid_peak_gain_v2=510027366
+audio.equalizer.low_peak_gain_v2=313174699
+audio.equalizer_v2=true
+audio.equalizer.high_mid_peak_gain_v2=447392426
+audio.play_bitrate_non_metered_migrated=true
+audio.equalizer.high_peak_gain_v2=259487607
+audio.play_bitrate_non_metered_enumeration=3
+audio.play_bitrate_enumeration=3
+audio.equalizer.low_shelf_gain_v2=635297246

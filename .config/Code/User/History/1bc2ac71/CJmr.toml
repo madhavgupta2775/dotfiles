@@ -1,0 +1,24 @@
+# Configuration file for HyDE
+# Environment variables should be on top
+# Updated config.toml file can be found at $HOME/.local/share/hyde/config.toml
+
+[battery.notify]
+# batterynotify.sh configuration
+timer = 120
+notify = 1140
+interval = 5
+dock = false
+
+[battery.notify.threshold]
+full = 90
+critical = 10
+low = 20
+unplug = 50
+
+
+[battery.notify.execute]
+unplug = 0
+low = ""
+critical = "systemctl suspend"
+charging = 0
+discharging = 0
