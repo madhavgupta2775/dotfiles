@@ -1,17 +1,14 @@
 [Colors:View]
-BackgroundNormal=#00000000
+BackgroundNormal=#18122B
 
 [General]
 TerminalApplication=/usr/bin/kitty
 
 [Icons]
-Theme=Tela-circle-dracula
+Theme=BeautyLine
 
 [KDE]
 widgetStyle=kvantum
 
-[UISettings]
-ColorScheme=Catppuccin-Mocha
-
 [UiSettings]
-ColorScheme=*
+ColorScheme=colors

@@ -9,4 +9,5 @@ audio.play_bitrate_non_metered_migrated=true
 audio.equalizer.high_peak_gain_v2=259487607
 audio.play_bitrate_non_metered_enumeration=3
 audio.play_bitrate_enumeration=3
+ui.hide_hpto=true
 audio.equalizer.low_shelf_gain_v2=635297246

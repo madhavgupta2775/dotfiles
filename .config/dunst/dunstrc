@@ -9,7 +9,7 @@
 corner_radius = 10
 icon_corner_radius = 10
 dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
-icon_theme = "Tela-circle-dracula,Wallbash-Icon,Nordzy,Tela-circle-black,Gruvbox-Plus-Dark,Tela-circle-blue,Tela-circle-green,Tela-circle-yellow,Tela-circle-grey,Tela-circle-purple,Tela-circle-dracula,Tela-circle-pink,Tela-circle-red,Rain-Dark,Tela-circle-solarized,besgnulinux-mono-red,Papirus-Everblush,WhiteSur,Monokai,Tela-circle-nord,Tela-circle-hotred,Papirus-Latte,Vivid-Glassy-Dark-Icons,Papirus-Nordic"
+icon_theme = "BeautyLine,Wallbash-Icon,Nordzy,Tela-circle-black,Gruvbox-Plus-Dark,Tela-circle-blue,Tela-circle-green,Tela-circle-yellow,Tela-circle-grey,Tela-circle-purple,Tela-circle-dracula,Tela-circle-pink,Tela-circle-red,Rain-Dark,Tela-circle-solarized,besgnulinux-mono-red,Papirus-Everblush,WhiteSur,Monokai,Tela-circle-nord,Tela-circle-hotred,Papirus-Latte,Vivid-Glassy-Dark-Icons,Papirus-Nordic"
 
 
 # [Type-1]
@@ -106,7 +106,12 @@ new_icon = skype
 # ------------------------------------------------------------------------------
 [global]
 
-font = Mononoki Nerd Font Mono 8
+# to change font and size, set the following variables in ~/.config/hyde/config.toml
+# [notification]
+# font = "mononoki Nerd Font"
+# font_size = 10
+font = Mononoki Nerd Font Mono 10
+
 dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
 
 
@@ -115,15 +120,15 @@ dmenu = /usr/bin/rofi -config notification -dmenu -p dunst:
 
 
 [urgency_low]
-    background = "#6565A380"
-    foreground = "#CCCCFFE6"
-    frame_color = "#6565A303"
+    background = "#65A1A380"
+    foreground = "#CCFDFFE6"
+    frame_color = "#65A1A303"
     icon = "/home/guptamadhav/.local/share/icons/Wallbash-Icon/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A3C6B80"
-    foreground = "#CCCEFFE6"
-    frame_color = "#3A3C6B03"
+    background = "#3B3A6B80"
+    foreground = "#CDCCFFE6"
+    frame_color = "#3B3A6B03"
     icon = "/home/guptamadhav/.local/share/icons/Wallbash-Icon/hyprdots.svg"
     timeout = 5
